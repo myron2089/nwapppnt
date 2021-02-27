@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    width: 20cm;
+    height: 29.7cm;
+    margin: 0 2cm;
+    color: #001028;
+    background: #FFFFFF;
+    font-size: 12px;
+    font-family: Arial, serif;
+}
+#logo {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #eee;
+}
+#titulo {
+    color: #697882;
+    padding: 0 20px 10px 0;
+    font-size: 65px;
+}
+#titulo-2 {
+    font-size: 75px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.table thead tr th {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding: 8px;
+    line-height: 1.42857;
+}
+
+.table > tbody > tr {
+    background-color: #fbfcfd;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: top;
+    color: #333;
+    border: 1px solid #e7ecf1;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
